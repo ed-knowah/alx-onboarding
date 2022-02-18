@@ -1,0 +1,19 @@
+
+INPUT variable a;
+INPUT variable b;
+INPUT variable c;
+Declare variable temp;
+IF a > b THEN
+    Initialise temp = a
+    a = b
+    b = temp
+IF a > c THEN
+    Initialize temp = a
+    a = c
+    c = temp
+IF b > c THEN
+    Initialize temp = b
+    b = c
+    c = temp
+DISPLAY "Sorted in ascending order"
+DISPLAY a, b, c

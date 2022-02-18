@@ -1,0 +1,9 @@
+
+DECLARE variable sum;
+WHILE TRUE
+    INPUT variable num
+    IF num >= 0 THEN
+       sum = sum + num
+    ELSE
+        END
+END LOOP
